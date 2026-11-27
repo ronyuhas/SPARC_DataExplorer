@@ -160,6 +160,9 @@ env.bak/
 venv.bak/
 SPARC_DataExplorer_env/
 
+# SPARC data files
+sparc_data/
+
 # Conda environments
 conda-meta/
 
