@@ -1,0 +1,23 @@
+# Core Jupyter stack
+jupyterlab>=4.0
+ipykernel
+notebook
+
+# Data handling & numerics
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+astropy>=5.3          # convenient for tables / units if you pull the .mrt files
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+
+# Optional but useful for interactive exploration
+plotly>=5.15
+ipympl                # interactive matplotlib in notebooks
+widgetsnbextension
+ipywidgets
+
+# Optional convenience for SPARC specifically
+pygrc                 # small package that reads/fits SPARC rotation curves (uncomment if you want it)
